@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46191D4D16CF564F005124E9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46191D4C16CF564E005124E9 /* Default-568h@2x.png */; };
+		4696297716CF14DF008815C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4696297616CF14DF008815C5 /* UIKit.framework */; };
+		4696297916CF14DF008815C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4696297816CF14DF008815C5 /* Foundation.framework */; };
+		4696297B16CF14DF008815C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4696297A16CF14DF008815C5 /* CoreGraphics.framework */; };
+		4696298116CF14E0008815C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4696297F16CF14E0008815C5 /* InfoPlist.strings */; };
+		4696298316CF14E0008815C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4696298216CF14E0008815C5 /* main.m */; };
+		4696298716CF14E0008815C5 /* HaSHa3rAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4696298616CF14E0008815C5 /* HaSHa3rAppDelegate.m */; };
+		4696298A16CF14E0008815C5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4696298816CF14E0008815C5 /* MainWindow.xib */; };
+		4696298D16CF14E0008815C5 /* HaSHa3rViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4696298C16CF14E0008815C5 /* HaSHa3rViewController.m */; };
+		4696299016CF14E0008815C5 /* HaSHa3rViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4696298E16CF14E0008815C5 /* HaSHa3rViewController.xib */; };
+		4696299816CF14E0008815C5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4696299716CF14E0008815C5 /* SenTestingKit.framework */; };
+		4696299916CF14E0008815C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4696297616CF14DF008815C5 /* UIKit.framework */; };
+		4696299A16CF14E0008815C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4696297816CF14DF008815C5 /* Foundation.framework */; };
+		4696299B16CF14E0008815C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4696297A16CF14DF008815C5 /* CoreGraphics.framework */; };
+		469629A316CF14E0008815C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 469629A116CF14E0008815C5 /* InfoPlist.strings */; };
+		469629A516CF14E0008815C5 /* HaSHa3rTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 469629A416CF14E0008815C5 /* HaSHa3rTests.h */; };
+		469629A716CF14E0008815C5 /* HaSHa3rTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 469629A616CF14E0008815C5 /* HaSHa3rTests.m */; };
+		469629B216CF1E73008815C5 /* HashTweets.m in Sources */ = {isa = PBXBuildFile; fileRef = 469629B116CF1E73008815C5 /* HashTweets.m */; };
+		469629B416CF22DB008815C5 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 469629B316CF22DB008815C5 /* test.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4696299C16CF14E0008815C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4696296916CF14DF008815C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4696297116CF14DF008815C5;
+			remoteInfo = HaSHa3r;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46191D4C16CF564E005124E9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4696297216CF14DF008815C5 /* HaSHa3r.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaSHa3r.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4696297616CF14DF008815C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4696297816CF14DF008815C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4696297A16CF14DF008815C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4696297E16CF14E0008815C5 /* HaSHa3r-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HaSHa3r-Info.plist"; sourceTree = "<group>"; };
+		4696298016CF14E0008815C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4696298216CF14E0008815C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4696298416CF14E0008815C5 /* HaSHa3r-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HaSHa3r-Prefix.pch"; sourceTree = "<group>"; };
+		4696298516CF14E0008815C5 /* HaSHa3rAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HaSHa3rAppDelegate.h; sourceTree = "<group>"; };
+		4696298616CF14E0008815C5 /* HaSHa3rAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaSHa3rAppDelegate.m; sourceTree = "<group>"; };
+		4696298916CF14E0008815C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4696298B16CF14E0008815C5 /* HaSHa3rViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HaSHa3rViewController.h; sourceTree = "<group>"; };
+		4696298C16CF14E0008815C5 /* HaSHa3rViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaSHa3rViewController.m; sourceTree = "<group>"; };
+		4696298F16CF14E0008815C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HaSHa3rViewController.xib; sourceTree = "<group>"; };
+		4696299616CF14E0008815C5 /* HaSHa3rTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaSHa3rTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4696299716CF14E0008815C5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		469629A016CF14E0008815C5 /* HaSHa3rTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HaSHa3rTests-Info.plist"; sourceTree = "<group>"; };
+		469629A216CF14E0008815C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		469629A416CF14E0008815C5 /* HaSHa3rTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HaSHa3rTests.h; sourceTree = "<group>"; };
+		469629A616CF14E0008815C5 /* HaSHa3rTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaSHa3rTests.m; sourceTree = "<group>"; };
+		469629B016CF1E73008815C5 /* HashTweets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashTweets.h; sourceTree = "<group>"; };
+		469629B116CF1E73008815C5 /* HashTweets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HashTweets.m; sourceTree = "<group>"; };
+		469629B316CF22DB008815C5 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4696296F16CF14DF008815C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4696297716CF14DF008815C5 /* UIKit.framework in Frameworks */,
+				4696297916CF14DF008815C5 /* Foundation.framework in Frameworks */,
+				4696297B16CF14DF008815C5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4696299216CF14E0008815C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4696299816CF14E0008815C5 /* SenTestingKit.framework in Frameworks */,
+				4696299916CF14E0008815C5 /* UIKit.framework in Frameworks */,
+				4696299A16CF14E0008815C5 /* Foundation.framework in Frameworks */,
+				4696299B16CF14E0008815C5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4696296716CF14DF008815C5 = {
+			isa = PBXGroup;
+			children = (
+				46191D4C16CF564E005124E9 /* Default-568h@2x.png */,
+				4696297C16CF14DF008815C5 /* HaSHa3r */,
+				4696299E16CF14E0008815C5 /* HaSHa3rTests */,
+				4696297516CF14DF008815C5 /* Frameworks */,
+				4696297316CF14DF008815C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4696297316CF14DF008815C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4696297216CF14DF008815C5 /* HaSHa3r.app */,
+				4696299616CF14E0008815C5 /* HaSHa3rTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4696297516CF14DF008815C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4696297616CF14DF008815C5 /* UIKit.framework */,
+				4696297816CF14DF008815C5 /* Foundation.framework */,
+				4696297A16CF14DF008815C5 /* CoreGraphics.framework */,
+				4696299716CF14E0008815C5 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4696297C16CF14DF008815C5 /* HaSHa3r */ = {
+			isa = PBXGroup;
+			children = (
+				469629B316CF22DB008815C5 /* test.png */,
+				4696298516CF14E0008815C5 /* HaSHa3rAppDelegate.h */,
+				4696298616CF14E0008815C5 /* HaSHa3rAppDelegate.m */,
+				4696298816CF14E0008815C5 /* MainWindow.xib */,
+				4696298B16CF14E0008815C5 /* HaSHa3rViewController.h */,
+				4696298C16CF14E0008815C5 /* HaSHa3rViewController.m */,
+				4696298E16CF14E0008815C5 /* HaSHa3rViewController.xib */,
+				4696297D16CF14DF008815C5 /* Supporting Files */,
+				469629B016CF1E73008815C5 /* HashTweets.h */,
+				469629B116CF1E73008815C5 /* HashTweets.m */,
+			);
+			path = HaSHa3r;
+			sourceTree = "<group>";
+		};
+		4696297D16CF14DF008815C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4696297E16CF14E0008815C5 /* HaSHa3r-Info.plist */,
+				4696297F16CF14E0008815C5 /* InfoPlist.strings */,
+				4696298216CF14E0008815C5 /* main.m */,
+				4696298416CF14E0008815C5 /* HaSHa3r-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4696299E16CF14E0008815C5 /* HaSHa3rTests */ = {
+			isa = PBXGroup;
+			children = (
+				469629A416CF14E0008815C5 /* HaSHa3rTests.h */,
+				469629A616CF14E0008815C5 /* HaSHa3rTests.m */,
+				4696299F16CF14E0008815C5 /* Supporting Files */,
+			);
+			path = HaSHa3rTests;
+			sourceTree = "<group>";
+		};
+		4696299F16CF14E0008815C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				469629A016CF14E0008815C5 /* HaSHa3rTests-Info.plist */,
+				469629A116CF14E0008815C5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4696297116CF14DF008815C5 /* HaSHa3r */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 469629AA16CF14E0008815C5 /* Build configuration list for PBXNativeTarget "HaSHa3r" */;
+			buildPhases = (
+				4696296E16CF14DF008815C5 /* Sources */,
+				4696296F16CF14DF008815C5 /* Frameworks */,
+				4696297016CF14DF008815C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaSHa3r;
+			productName = HaSHa3r;
+			productReference = 4696297216CF14DF008815C5 /* HaSHa3r.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4696299516CF14E0008815C5 /* HaSHa3rTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 469629AD16CF14E0008815C5 /* Build configuration list for PBXNativeTarget "HaSHa3rTests" */;
+			buildPhases = (
+				4696299116CF14E0008815C5 /* Sources */,
+				4696299216CF14E0008815C5 /* Frameworks */,
+				4696299316CF14E0008815C5 /* Resources */,
+				4696299416CF14E0008815C5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4696299D16CF14E0008815C5 /* PBXTargetDependency */,
+			);
+			name = HaSHa3rTests;
+			productName = HaSHa3rTests;
+			productReference = 4696299616CF14E0008815C5 /* HaSHa3rTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4696296916CF14DF008815C5 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4696296C16CF14DF008815C5 /* Build configuration list for PBXProject "HaSHa3r" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4696296716CF14DF008815C5;
+			productRefGroup = 4696297316CF14DF008815C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4696297116CF14DF008815C5 /* HaSHa3r */,
+				4696299516CF14E0008815C5 /* HaSHa3rTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4696297016CF14DF008815C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4696298116CF14E0008815C5 /* InfoPlist.strings in Resources */,
+				4696298A16CF14E0008815C5 /* MainWindow.xib in Resources */,
+				4696299016CF14E0008815C5 /* HaSHa3rViewController.xib in Resources */,
+				469629B416CF22DB008815C5 /* test.png in Resources */,
+				46191D4D16CF564F005124E9 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4696299316CF14E0008815C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469629A316CF14E0008815C5 /* InfoPlist.strings in Resources */,
+				469629A516CF14E0008815C5 /* HaSHa3rTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4696299416CF14E0008815C5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4696296E16CF14DF008815C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4696298316CF14E0008815C5 /* main.m in Sources */,
+				4696298716CF14E0008815C5 /* HaSHa3rAppDelegate.m in Sources */,
+				4696298D16CF14E0008815C5 /* HaSHa3rViewController.m in Sources */,
+				469629B216CF1E73008815C5 /* HashTweets.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4696299116CF14E0008815C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469629A716CF14E0008815C5 /* HaSHa3rTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4696299D16CF14E0008815C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4696297116CF14DF008815C5 /* HaSHa3r */;
+			targetProxy = 4696299C16CF14E0008815C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4696297F16CF14E0008815C5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4696298016CF14E0008815C5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4696298816CF14E0008815C5 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4696298916CF14E0008815C5 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4696298E16CF14E0008815C5 /* HaSHa3rViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4696298F16CF14E0008815C5 /* en */,
+			);
+			name = HaSHa3rViewController.xib;
+			sourceTree = "<group>";
+		};
+		469629A116CF14E0008815C5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				469629A216CF14E0008815C5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		469629A816CF14E0008815C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		469629A916CF14E0008815C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		469629AB16CF14E0008815C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HaSHa3r/HaSHa3r-Prefix.pch";
+				INFOPLIST_FILE = "HaSHa3r/HaSHa3r-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		469629AC16CF14E0008815C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HaSHa3r/HaSHa3r-Prefix.pch";
+				INFOPLIST_FILE = "HaSHa3r/HaSHa3r-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		469629AE16CF14E0008815C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HaSHa3r.app/HaSHa3r";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HaSHa3r/HaSHa3r-Prefix.pch";
+				INFOPLIST_FILE = "HaSHa3rTests/HaSHa3rTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		469629AF16CF14E0008815C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HaSHa3r.app/HaSHa3r";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HaSHa3r/HaSHa3r-Prefix.pch";
+				INFOPLIST_FILE = "HaSHa3rTests/HaSHa3rTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4696296C16CF14DF008815C5 /* Build configuration list for PBXProject "HaSHa3r" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469629A816CF14E0008815C5 /* Debug */,
+				469629A916CF14E0008815C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		469629AA16CF14E0008815C5 /* Build configuration list for PBXNativeTarget "HaSHa3r" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469629AB16CF14E0008815C5 /* Debug */,
+				469629AC16CF14E0008815C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		469629AD16CF14E0008815C5 /* Build configuration list for PBXNativeTarget "HaSHa3rTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469629AE16CF14E0008815C5 /* Debug */,
+				469629AF16CF14E0008815C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4696296916CF14DF008815C5 /* Project object */;
+}
